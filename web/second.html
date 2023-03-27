@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Эльнейро</title>
+	<script src="eel.js"></script>
+	<link rel="icon" type="image/png" href="/logo.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+		function show_main_window() {
+    		window.open("main.html");
+    		window.close();
+		}
+	</script>
+		<script>
+		function show_second_window() {
+    		window.open("second.html");
+    		window.close();
+		}
+	</script>
+		<script>
+		function show_third_window() {
+    		window.open("third.html");
+    		window.close();
+		}
+	</script>
+	<style>
+		body {
+			background-color: #DFE2EB;
+		}
+	</style>
+</head>
+<body>
+	<div class="clock">
+		<!-- JavaScript код для вывода текущего времени на страницу -->
+		<script>
+			var now = new Date();
+			document.write(now.toLocaleTimeString());
+		</script>
+	</div>
+	<br>
+	<button class="show" onclick="show_third_window()"> <img src="button.png"> </button>
+	<button class="recommendation">Рекомендации</button>
+	<img class="pending-image" alt="Загружается..." />
+</body>
+</html>

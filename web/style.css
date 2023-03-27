@@ -1,0 +1,74 @@
+.clock {
+  font-size: 36px;
+  font-family: "Nunito Bold", sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+ }
+.pending-image {
+  display: block;
+  border: 1px dashed gray;
+  margin: 100px 0 0 50px;
+  height: 500px;
+  width: 65%;
+  text-align: left;
+  border-radius: 10px;
+}
+.my-button {
+  background-color: #5094C6;
+  color: #453D4D;
+  border-radius: 50px;
+  border: 2px solid #5094C6;
+  width: 498px;
+  height: 150px;
+  font-family: "Nunito Bold", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  line-height: 150px;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+}
+.my-button:hover {
+  transform: scale(1.05);
+}
+.start {
+ position: absolute; right: 10px; top: 150px;
+}
+.patient {
+ position: absolute; right: 10px; top: 350px;
+}
+.show {
+ position: absolute;
+ bottom: 100px;
+ right: 10px;
+ border: none;
+ background-color: transparent;
+}
+.show:hover {
+ transform: scale(1.05);
+ }
+.recommendation {
+ background-color: #5094C6;
+ color: #453D4D;
+ border-radius: 50px;
+ border: 2px solid #5094C6;
+ width: 600px;
+ height: 200px;
+ font-family: "Nunito Bold", sans-serif;
+ font-size: 48px;
+ text-align: center;
+ line-height: 150px;
+ position: absolute;
+ transition: all 0.2s ease-in-out;
+ position: fixed; left: 10px; top: 750px
+}
+.recommendation:hover {
+ transform: scale(1.05);
+ }
+ .stop {
+ position: absolute; right: 10px; top: 150px;
+ }
+.hide {
+ position: absolute; right: 10px; top: 750px;
+}
+
